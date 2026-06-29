@@ -1,0 +1,20 @@
+/ {
+	aliases {
+		sw1 = &button1;
+	};
+
+	gpio_emul: gpio_emul {
+		status = "okay";
+		compatible = "zephyr,gpio-emul";
+		gpio-controller;
+		#gpio-cells = <2>;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		button1: button_1 {
+			gpios = <&gpio_emul 1 GPIO_ACTIVE_LOW>;
+			label = "Botao extra";
+		};
+	};
+};
