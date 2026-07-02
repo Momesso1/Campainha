@@ -1,0 +1,14 @@
+build/
+build_*/
+twister-out/
+twister-out.*/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.stat
+.cache/
+__pycache__/
+*.pyc

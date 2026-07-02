@@ -1,0 +1,13 @@
+/ {
+	aliases {
+		sw1 = &button0_node;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		button0_node: button_0 {
+			gpios = <&gpio0 9 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			label = "Botao BOOT";
+		};
+	};
+};
