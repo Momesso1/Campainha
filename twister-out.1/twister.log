@@ -1,6 +1,0 @@
-2026-07-06 12:43:31,028 - twister - INFO - Using Ninja..
-2026-07-06 12:43:31,325 - twister - INFO - Zephyr version: v4.4.0-7458-g2c47d4530087
-2026-07-06 12:43:31,335 - twister - DEBUG - Running cmake script /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
-2026-07-06 12:43:31,336 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
-2026-07-06 12:43:31,789 - twister - DEBUG - Finished running /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
-2026-07-06 12:43:31,789 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
