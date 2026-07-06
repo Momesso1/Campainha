@@ -1,0 +1,40 @@
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
+/ {
+	aliases {
+		sw1 = &button1;
+	};
+
+	gpio_emul_btn: gpio_emul_btn {
+		compatible = "zephyr,gpio-emul";
+		status = "okay";
+		gpio-controller;
+		#gpio-cells = <2>;
+		rising-edge;
+		falling-edge;
+		high-level;
+		low-level;
+	};
+
+	buttons: buttons {
+		compatible = "gpio-keys";
+		status = "okay";
+
+		button1: button_1 {
+			gpios = <&gpio_emul_btn 1 GPIO_ACTIVE_LOW>;
+			zephyr,code = <INPUT_KEY_0>;
+			label = "Botao";
+		};
+	};
+
+	longpress: longpress {
+		compatible = "zephyr,input-longpress";
+		status = "okay";
+		input = <&buttons>;
+		input-codes = <INPUT_KEY_0>;
+		short-codes = <INPUT_KEY_A>;
+		long-codes  = <INPUT_KEY_B>;
+		long-delay-ms = <800>;
+	};
+};

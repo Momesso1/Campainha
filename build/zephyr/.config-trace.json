@@ -7,7 +7,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2888
+      2898
     ]
   ],
   [
@@ -18,7 +18,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2893
+      2903
     ]
   ],
   [
@@ -29,7 +29,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2898
+      2908
     ]
   ],
   [
@@ -40,7 +40,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2918
+      2928
     ]
   ],
   [
@@ -51,7 +51,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2928
+      2938
     ]
   ],
   [
@@ -62,7 +62,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2933
+      2943
     ]
   ],
   [
@@ -73,7 +73,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      2948
+      2958
     ]
   ],
   [
@@ -84,7 +84,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3003
+      3013
     ]
   ],
   [
@@ -95,7 +95,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3033
+      3043
     ]
   ],
   [
@@ -106,7 +106,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3038
+      3048
     ]
   ],
   [
@@ -117,7 +117,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3043
+      3053
     ]
   ],
   [
@@ -128,7 +128,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3063
+      3073
     ]
   ],
   [
@@ -139,7 +139,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3078
+      3088
     ]
   ],
   [
@@ -150,7 +150,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3088
+      3098
     ]
   ],
   [
@@ -161,7 +161,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3093
+      3103
     ]
   ],
   [
@@ -172,7 +172,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3098
+      3108
     ]
   ],
   [
@@ -183,7 +183,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3113
+      3123
     ]
   ],
   [
@@ -194,7 +194,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      3463
+      3473
     ]
   ],
   [
@@ -205,7 +205,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      6368
+      6418
     ]
   ],
   [
@@ -216,7 +216,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      12033
+      12108
     ]
   ],
   [
@@ -227,7 +227,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      13318
+      13393
     ]
   ],
   [
@@ -238,22 +238,11 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      16928
+      17023
     ]
   ],
   [
-    "CONFIG_DT_HAS_ZEPHYR_MAPPED_PARTITION_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      17538
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_ZEPHYR_MEMORY_REGION_ENABLED",
+    "CONFIG_DT_HAS_ZEPHYR_INPUT_LONGPRESS_ENABLED",
     "n",
     "bool",
     "y",
@@ -264,6 +253,28 @@
     ]
   ],
   [
+    "CONFIG_DT_HAS_ZEPHYR_MAPPED_PARTITION_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
+      17638
+    ]
+  ],
+  [
+    "CONFIG_DT_HAS_ZEPHYR_MEMORY_REGION_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
+      17678
+    ]
+  ],
+  [
     "CONFIG_DT_HAS_ZEPHYR_POWER_STATE_ENABLED",
     "n",
     "bool",
@@ -271,16 +282,19 @@
     "default",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.dts",
-      17718
+      17818
     ]
   ],
   [
     "CONFIG_INPUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
+      18
+    ]
   ],
   [
     "CONFIG_WIFI",
@@ -298,7 +312,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      19
+      22
     ]
   ],
   [
@@ -358,7 +372,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      20
+      23
     ]
   ],
   [
@@ -399,10 +413,9 @@
     "y",
     "bool",
     "y",
-    "assign",
+    "select",
     [
-      "/home/momesso/zephyrproject/zephyr/boards/espressif/esp32c3_devkitm/esp32c3_devkitm_defconfig",
-      6
+      "INPUT_GPIO_KEYS && DT_HAS_GPIO_KEYS_ENABLED && INPUT"
     ]
   ],
   [
@@ -440,6 +453,17 @@
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_INPUT_INIT_PRIORITY",
+    "y",
+    "int",
+    "90",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/input/Kconfig",
+      17
+    ]
   ],
   [
     "CONFIG_MODEM",
@@ -668,7 +692,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      28
+      31
     ]
   ],
   [
@@ -776,7 +800,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      27
+      30
     ]
   ],
   [
@@ -1165,7 +1189,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      91
+      95
     ]
   ],
   [
@@ -1485,6 +1509,17 @@
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_BUILD_GAP_FILL_PATTERN",
+    "y",
+    "hex",
+    "0xFF",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/Kconfig.zephyr",
+      779
+    ]
   ],
   [
     "CONFIG_BUILD_ONLY_NO_BLOBS",
@@ -4179,7 +4214,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      59
+      72
     ]
   ],
   [
@@ -4190,7 +4225,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      73
+      86
     ]
   ],
   [
@@ -4201,7 +4236,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      81
+      94
     ]
   ],
   [
@@ -4212,7 +4247,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      87
+      101
     ]
   ],
   [
@@ -4223,18 +4258,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      112
-    ]
-  ],
-  [
-    "CONFIG_ESP_CLK_FREQ_HZ",
-    "n",
-    "int",
-    "160000000",
-    "default",
-    [
-      "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      119
+      124
     ]
   ],
   [
@@ -4245,7 +4269,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      126
+      131
     ]
   ],
   [
@@ -4256,7 +4280,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      131
+      136
     ]
   ],
   [
@@ -4267,7 +4291,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      137
+      142
     ]
   ],
   [
@@ -4278,7 +4302,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      141
+      146
     ]
   ],
   [
@@ -4289,7 +4313,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      149
+      154
     ]
   ],
   [
@@ -4300,7 +4324,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      153
+      158
     ]
   ],
   [
@@ -4311,7 +4335,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      161
+      166
     ]
   ],
   [
@@ -4322,7 +4346,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      169
+      174
     ]
   ],
   [
@@ -4333,7 +4357,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      178
+      183
     ]
   ],
   [
@@ -4344,7 +4368,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      186
+      191
     ]
   ],
   [
@@ -4355,7 +4379,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      206
+      211
     ]
   ],
   [
@@ -4366,7 +4390,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      210
+      215
     ]
   ],
   [
@@ -4377,7 +4401,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      235
+      240
     ]
   ],
   [
@@ -4388,7 +4412,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      260
+      265
     ]
   ],
   [
@@ -4399,7 +4423,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      286
+      291
     ]
   ],
   [
@@ -4410,7 +4434,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      308
+      313
     ]
   ],
   [
@@ -4421,7 +4445,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      323
+      328
     ]
   ],
   [
@@ -4432,7 +4456,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      336
+      341
     ]
   ],
   [
@@ -4443,7 +4467,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/modules/hal/espressif/zephyr/Kconfig",
-      351
+      356
     ]
   ],
   [
@@ -4579,6 +4603,22 @@
       "/home/momesso/zephyrproject/campainha_silenciosa/build/Kconfig/Kconfig.modules",
       130
     ]
+  ],
+  [
+    "CONFIG_NXP_MULTICORE",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_RPMSGLITE",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_ZEPHYR_OPENISA_MODULE",
@@ -7013,7 +7053,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/soc/espressif/common/Kconfig",
-      14
+      23
     ]
   ],
   [
@@ -7024,7 +7064,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/soc/espressif/common/Kconfig",
-      23
+      32
     ]
   ],
   [
@@ -7035,7 +7075,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/soc/espressif/common/Kconfig",
-      30
+      39
     ]
   ],
   [
@@ -7046,7 +7086,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/soc/espressif/common/Kconfig",
-      40
+      49
     ]
   ],
   [
@@ -8349,7 +8389,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/arch/Kconfig",
-      1320
+      1328
     ]
   ],
   [
@@ -10426,6 +10466,17 @@
     null
   ],
   [
+    "CONFIG_INPUT_GPIO_KEYS",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
+      19
+    ]
+  ],
+  [
     "CONFIG_INTC_INIT_PRIORITY",
     "y",
     "int",
@@ -10541,7 +10592,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      24
+      27
     ]
   ],
   [
@@ -11826,6 +11877,14 @@
     ]
   ],
   [
+    "CONFIG_SYS_HEAP_KASAN",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_SYS_HEAP_LOG_LEVEL_OFF",
     "y",
     "bool",
@@ -11911,7 +11970,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/lib/heap/Kconfig",
-      221
+      321
     ]
   ],
   [
@@ -12078,6 +12137,14 @@
     null
   ],
   [
+    "CONFIG_RESET_ON_FATAL_ERROR",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_HAS_POWEROFF",
     "n",
     "bool",
@@ -12103,7 +12170,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/lib/os/Kconfig",
-      148
+      154
     ]
   ],
   [
@@ -12114,7 +12181,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/lib/os/Kconfig",
-      157
+      163
     ]
   ],
   [
@@ -12125,7 +12192,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/lib/os/Kconfig",
-      164
+      170
     ]
   ],
   [
@@ -12982,6 +13049,14 @@
     null
   ],
   [
+    "CONFIG_BT_USER_CONN_PARAM_REJECTED",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_BT_REMOTE_INFO",
     "y",
     "bool",
@@ -12997,7 +13072,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      32
+      35
     ]
   ],
   [
@@ -13180,7 +13255,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      36
+      39
     ]
   ],
   [
@@ -13191,7 +13266,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      37
+      40
     ]
   ],
   [
@@ -13202,7 +13277,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      38
+      41
     ]
   ],
   [
@@ -13213,7 +13288,7 @@
     "assign",
     [
       "/home/momesso/zephyrproject/campainha_silenciosa/prj.conf",
-      39
+      42
     ]
   ],
   [
@@ -13350,7 +13425,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      839
+      848
     ]
   ],
   [
@@ -13361,7 +13436,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      848
+      855
     ]
   ],
   [
@@ -13372,7 +13447,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      853
+      860
     ]
   ],
   [
@@ -13383,7 +13458,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      869
+      876
     ]
   ],
   [
@@ -13394,7 +13469,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      878
+      885
     ]
   ],
   [
@@ -13432,7 +13507,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      968
+      975
     ]
   ],
   [
@@ -13443,7 +13518,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      978
+      985
     ]
   ],
   [
@@ -13494,7 +13569,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/bluetooth/host/Kconfig",
-      1179
+      1186
     ]
   ],
   [
@@ -15127,6 +15202,144 @@
     null
   ],
   [
+    "CONFIG_INPUT_LOG_LEVEL_OFF",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL_ERR",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL_WRN",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL_INF",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL_DBG",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL_DEFAULT",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.template.log_config",
+      5
+    ]
+  ],
+  [
+    "CONFIG_INPUT_LOG_LEVEL",
+    "n",
+    "int",
+    "3",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.template.log_config",
+      36
+    ]
+  ],
+  [
+    "CONFIG_INPUT_MODE_SYNCHRONOUS",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_MODE_THREAD",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/input/Kconfig",
+      23
+    ]
+  ],
+  [
+    "CONFIG_INPUT_THREAD_PRIORITY_OVERRIDE",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_QUEUE_MAX_MSGS",
+    "y",
+    "int",
+    "16",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/input/Kconfig",
+      57
+    ]
+  ],
+  [
+    "CONFIG_INPUT_THREAD_STACK_SIZE",
+    "y",
+    "int",
+    "1024",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/input/Kconfig",
+      64
+    ]
+  ],
+  [
+    "CONFIG_INPUT_EVENT_DUMP",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_SHELL",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_INPUT_LONGPRESS",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/momesso/zephyrproject/zephyr/subsys/input/Kconfig",
+      87
+    ]
+  ],
+  [
     "CONFIG_INSTRUMENTATION",
     "y",
     "bool",
@@ -15434,6 +15647,14 @@
     ]
   ],
   [
+    "CONFIG_LOG_PRINTK_STATIC",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_LOG_MODE_OVERFLOW",
     "y",
     "bool",
@@ -15441,7 +15662,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      19
+      23
     ]
   ],
   [
@@ -15460,7 +15681,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      44
+      48
     ]
   ],
   [
@@ -15471,7 +15692,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      55
+      59
     ]
   ],
   [
@@ -15482,7 +15703,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      66
+      70
     ]
   ],
   [
@@ -15493,7 +15714,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      73
+      77
     ]
   ],
   [
@@ -15512,7 +15733,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      123
+      127
     ]
   ],
   [
@@ -15523,7 +15744,7 @@
     "default",
     [
       "/home/momesso/zephyrproject/zephyr/subsys/logging/Kconfig.processing",
-      152
+      156
     ]
   ],
   [
@@ -18237,17 +18458,6 @@
     null
   ],
   [
-    "CONFIG_BUILD_GAP_FILL_PATTERN",
-    "y",
-    "hex",
-    "0xFF",
-    "default",
-    [
-      "/home/momesso/zephyrproject/zephyr/Kconfig.zephyr",
-      779
-    ]
-  ],
-  [
     "CONFIG_BUILD_NO_GAP_FILL",
     "y",
     "bool",
@@ -18441,11 +18651,8 @@
     "CONFIG_LEGACY_GENERATED_INCLUDE_PATH",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/momesso/zephyrproject/zephyr/Kconfig.zephyr",
-      1166
-    ]
+    null,
+    "unset",
+    null
   ]
 ]

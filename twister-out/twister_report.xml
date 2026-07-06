@@ -1,0 +1,14 @@
+<testsuites>
+	<testsuite name="native_sim/native" timestamp="2026-07-06T14:38:22.338334" time="0.0" tests="7" failures="0" errors="0" skipped="0">
+		<properties>
+			<property name="version" value="v4.4.0-7458-g2c47d4530087" />
+		</properties>
+		<testcase classname="app.button" name="app.button.button.toque_curto" time="0.31" />
+		<testcase classname="app.button" name="app.button.button.toque_longo" time="1.11" />
+		<testcase classname="app.button" name="app.button.button.dois_toques_seguidos" time="0.64" />
+		<testcase classname="app.hist" name="app.hist.hist.vazio" time="0.00" />
+		<testcase classname="app.hist" name="app.hist.hist.ordem_cronologica" time="0.00" />
+		<testcase classname="app.hist" name="app.hist.hist.overflow_circular" time="0.00" />
+		<testcase classname="app.hist" name="app.hist.hist.clear" time="0.00" />
+	</testsuite>
+</testsuites>

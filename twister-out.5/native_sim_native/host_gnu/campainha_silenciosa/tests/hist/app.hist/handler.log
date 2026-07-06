@@ -1,0 +1,30 @@
+*** Booting Zephyr OS build v4.4.0-7458-g2c47d4530087 ***
+Running TESTSUITE hist
+===================================================================
+START - test_clear
+ PASS - test_clear in 0.000 seconds
+===================================================================
+START - test_ordem_cronologica
+ PASS - test_ordem_cronologica in 0.000 seconds
+===================================================================
+START - test_overflow_circular
+ PASS - test_overflow_circular in 0.000 seconds
+===================================================================
+START - test_vazio
+ PASS - test_vazio in 0.000 seconds
+===================================================================
+TESTSUITE hist succeeded
+
+------ TESTSUITE SUMMARY START ------
+
+SUITE PASS - 100.00% [hist]: pass = 4, fail = 0, skip = 0, total = 4 duration = 0.000 seconds
+ - PASS - [hist.test_clear] duration = 0.000 seconds
+ - PASS - [hist.test_ordem_cronologica] duration = 0.000 seconds
+ - PASS - [hist.test_overflow_circular] duration = 0.000 seconds
+ - PASS - [hist.test_vazio] duration = 0.000 seconds
+
+------ TESTSUITE SUMMARY END ------
+
+===================================================================
+RunID: 35cddb7c772bb51d71de1bd0867e4270
+PROJECT EXECUTION SUCCESSFUL

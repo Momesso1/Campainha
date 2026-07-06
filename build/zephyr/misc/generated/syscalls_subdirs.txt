@@ -195,6 +195,7 @@
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_battery
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_clock
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_comparator
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_counter
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_dac
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_dai
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/misc/generated/syscalls_links/include_zephyr_dt-bindings_display

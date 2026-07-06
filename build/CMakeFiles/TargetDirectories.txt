@@ -423,6 +423,13 @@
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/crc/CMakeFiles/install.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/crc/CMakeFiles/install/local.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/crc/CMakeFiles/install/strip.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/subsys__input.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/edit_cache.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/rebuild_cache.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/list_install_components.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/install.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/install/local.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/input/CMakeFiles/install/strip.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/settings/CMakeFiles/edit_cache.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/settings/CMakeFiles/rebuild_cache.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/subsys/settings/CMakeFiles/list_install_components.dir
@@ -581,6 +588,13 @@
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/gpio/CMakeFiles/install.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/gpio/CMakeFiles/install/local.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/gpio/CMakeFiles/install/strip.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/drivers__input.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/edit_cache.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/rebuild_cache.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/list_install_components.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/install.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/install/local.dir
+/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/input/CMakeFiles/install/strip.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/led_strip/CMakeFiles/drivers__led_strip.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/led_strip/CMakeFiles/edit_cache.dir
 /home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/drivers/led_strip/CMakeFiles/rebuild_cache.dir

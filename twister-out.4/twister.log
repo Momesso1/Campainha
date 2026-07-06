@@ -1,0 +1,118 @@
+2026-07-06 12:49:42,398 - twister - INFO - Using Ninja..
+2026-07-06 12:49:42,738 - twister - INFO - Zephyr version: v4.4.0-7458-g2c47d4530087
+2026-07-06 12:49:42,743 - twister - DEBUG - Running cmake script /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:49:42,743 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:49:43,239 - twister - DEBUG - Finished running /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:49:43,239 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-07-06 12:49:45,375 - twister - DEBUG - Reading testsuite configuration files under /home/momesso/zephyrproject/campainha_silenciosa/tests...
+2026-07-06 12:49:45,376 - twister - DEBUG - Found possible testsuite in /home/momesso/zephyrproject/campainha_silenciosa/tests/button
+2026-07-06 12:49:45,381 - twister - DEBUG - Found possible testsuite in /home/momesso/zephyrproject/campainha_silenciosa/tests/hist
+2026-07-06 12:49:45,383 - twister - DEBUG - No duplicates found.
+2026-07-06 12:49:45,384 - twister - DEBUG -  platform filter: ['native_sim']
+2026-07-06 12:49:45,384 - twister - DEBUG - platform_pattern: []
+2026-07-06 12:49:45,384 - twister - DEBUG -    vendor filter: []
+2026-07-06 12:49:45,384 - twister - DEBUG -      arch_filter: None
+2026-07-06 12:49:45,384 - twister - DEBUG -       tag_filter: None
+2026-07-06 12:49:45,384 - twister - DEBUG -      exclude_tag: None
+2026-07-06 12:49:45,384 - twister - DEBUG - Checking platform filter: ['native_sim']
+2026-07-06 12:49:45,385 - twister - INFO - Building initial testsuite list...
+2026-07-06 12:49:45,386 - twister - INFO - Built testsuite list in 0.00 seconds
+2026-07-06 12:49:45,386 - twister - INFO - Writing JSON report /home/momesso/zephyrproject/campainha_silenciosa/twister-out/testplan.json
+2026-07-06 12:49:45,413 - twister - INFO - JOBS: 8
+2026-07-06 12:49:45,413 - twister - INFO - Adding tasks to the queue...
+2026-07-06 12:49:45,414 - twister - DEBUG - adding native_sim/native/host/gnu/app.button
+2026-07-06 12:49:45,416 - twister - DEBUG - adding native_sim/native/host/gnu/app.hist
+2026-07-06 12:49:45,417 - twister - INFO - Added initial list of jobs to queue
+2026-07-06 12:49:45,430 - twister - DEBUG - Running cmake on /home/momesso/zephyrproject/campainha_silenciosa/tests/hist for native_sim/native
+2026-07-06 12:49:45,432 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist -DTC_RUNID=013e69d5cfef26a5c1187196fd87e252 -DTC_NAME=app.hist -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/momesso/miniconda3/envs/zephyr/bin/python -DZEPHYR_TOOLCHAIN_VARIANT=host/gnu -S/home/momesso/zephyrproject/campainha_silenciosa/tests/hist -DOVERLAY_CONFIG=/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist/twister/testsuite_extra.conf -DBOARD=native_sim/native
+2026-07-06 12:49:45,435 - twister - DEBUG - Running cmake on /home/momesso/zephyrproject/campainha_silenciosa/tests/button for native_sim/native
+2026-07-06 12:49:45,436 - twister - DEBUG - Calling cmake: /usr/bin/cmake -B/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button -DTC_RUNID=ab539989ec08491ee8591c8261ad808a -DTC_NAME=app.button -DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y -DEXTRA_GEN_EDT_ARGS=--edtlib-Werror -GNinja -DPython3_EXECUTABLE=/home/momesso/miniconda3/envs/zephyr/bin/python -DZEPHYR_TOOLCHAIN_VARIANT=host/gnu -S/home/momesso/zephyrproject/campainha_silenciosa/tests/button -DOVERLAY_CONFIG=/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button/twister/testsuite_extra.conf -DBOARD=native_sim/native
+2026-07-06 12:49:45,445 - twister - DEBUG - Launched 8 jobs
+2026-07-06 12:49:58,201 - twister - DEBUG - Finished running cmake /home/momesso/zephyrproject/campainha_silenciosa/tests/hist for native_sim/native in 12.76 seconds
+2026-07-06 12:49:58,207 - twister - DEBUG - build test: native_sim/native/host/gnu/app.hist
+2026-07-06 12:49:58,207 - twister - DEBUG - Building /home/momesso/zephyrproject/campainha_silenciosa/tests/hist for native_sim/native
+2026-07-06 12:49:58,209 - twister - DEBUG - Running /usr/bin/cmake --build /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist
+2026-07-06 12:49:58,265 - twister - DEBUG - Finished running cmake /home/momesso/zephyrproject/campainha_silenciosa/tests/button for native_sim/native in 12.82 seconds
+2026-07-06 12:49:58,270 - twister - DEBUG - build test: native_sim/native/host/gnu/app.button
+2026-07-06 12:49:58,270 - twister - DEBUG - Building /home/momesso/zephyrproject/campainha_silenciosa/tests/button for native_sim/native
+2026-07-06 12:49:58,271 - twister - DEBUG - Running /usr/bin/cmake --build /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button
+2026-07-06 12:50:02,919 - twister - ERROR - native_sim/native         app.button                                         [31mERROR[39m: Build failure
+2026-07-06 12:50:02,920 - twister - ERROR - see: [33m/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button/build.log[39m
+2026-07-06 12:50:06,129 - twister - DEBUG - Finished building /home/momesso/zephyrproject/campainha_silenciosa/tests/hist for native_sim/native in 7.92 seconds
+2026-07-06 12:50:06,130 - twister - DEBUG - Determine test cases for test instance: native_sim/native/host/gnu/app.hist
+2026-07-06 12:50:06,130 - twister - DEBUG - Determine test cases for test suite: app.hist
+2026-07-06 12:50:06,525 - twister - DEBUG - Test instance native_sim/native/host/gnu/app.hist already has 4 testcase(s) known: [<TestCase app.hist.hist.clear with None>, <TestCase app.hist.hist.ordem_cronologica with None>, <TestCase app.hist.hist.overflow_circular with None>, <TestCase app.hist.hist.vazio with None>]
+2026-07-06 12:50:06,526 - twister - DEBUG - Detected 4 Ztest case(s): [app.hist.hist.vazio, app.hist.hist.ordem_cronologica, app.hist.hist.overflow_circular, app.hist.hist.clear] in /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist/zephyr/zephyr.elf
+2026-07-06 12:50:06,532 - twister - DEBUG - run test: native_sim/native/host/gnu/app.hist
+2026-07-06 12:50:06,532 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-07-06 12:50:06,533 - twister - DEBUG - Spawning process: /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist/zephyr/zephyr.exe
+in directory: /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist
+2026-07-06 12:50:06,534 - twister - DEBUG - Spawning BinaryHandler Thread for native_sim/native/host/gnu/app.hist
+2026-07-06 12:50:06,535 - twister - DEBUG - OUTPUT: *** Booting Zephyr OS build v4.4.0-7458-g2c47d4530087 ***
+2026-07-06 12:50:06,536 - twister - DEBUG - OUTPUT: Running TESTSUITE hist
+2026-07-06 12:50:06,536 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,536 - twister - DEBUG - OUTPUT: START - test_clear
+2026-07-06 12:50:06,537 - twister - DEBUG - OUTPUT:  PASS - test_clear in 0.000 seconds
+2026-07-06 12:50:06,537 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,537 - twister - DEBUG - OUTPUT: START - test_ordem_cronologica
+2026-07-06 12:50:06,538 - twister - DEBUG - OUTPUT:  PASS - test_ordem_cronologica in 0.000 seconds
+2026-07-06 12:50:06,538 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,538 - twister - DEBUG - OUTPUT: START - test_overflow_circular
+2026-07-06 12:50:06,539 - twister - DEBUG - OUTPUT:  PASS - test_overflow_circular in 0.000 seconds
+2026-07-06 12:50:06,539 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,539 - twister - DEBUG - OUTPUT: START - test_vazio
+2026-07-06 12:50:06,539 - twister - DEBUG - OUTPUT:  PASS - test_vazio in 0.000 seconds
+2026-07-06 12:50:06,540 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,540 - twister - DEBUG - OUTPUT: TESTSUITE hist succeeded
+2026-07-06 12:50:06,540 - twister - DEBUG - OUTPUT: 
+2026-07-06 12:50:06,540 - twister - DEBUG - OUTPUT: ------ TESTSUITE SUMMARY START ------
+2026-07-06 12:50:06,540 - twister - DEBUG - OUTPUT: 
+2026-07-06 12:50:06,541 - twister - DEBUG - OUTPUT: SUITE PASS - 100.00% [hist]: pass = 4, fail = 0, skip = 0, total = 4 duration = 0.000 seconds
+2026-07-06 12:50:06,541 - twister - DEBUG - OUTPUT:  - PASS - [hist.test_clear] duration = 0.000 seconds
+2026-07-06 12:50:06,541 - twister - DEBUG - OUTPUT:  - PASS - [hist.test_ordem_cronologica] duration = 0.000 seconds
+2026-07-06 12:50:06,542 - twister - DEBUG - OUTPUT:  - PASS - [hist.test_overflow_circular] duration = 0.000 seconds
+2026-07-06 12:50:06,542 - twister - DEBUG - OUTPUT:  - PASS - [hist.test_vazio] duration = 0.000 seconds
+2026-07-06 12:50:06,542 - twister - DEBUG - OUTPUT: 
+2026-07-06 12:50:06,542 - twister - DEBUG - OUTPUT: ------ TESTSUITE SUMMARY END ------
+2026-07-06 12:50:06,543 - twister - DEBUG - OUTPUT: 
+2026-07-06 12:50:06,543 - twister - DEBUG - OUTPUT: ===================================================================
+2026-07-06 12:50:06,543 - twister - DEBUG - OUTPUT: RunID: 013e69d5cfef26a5c1187196fd87e252
+2026-07-06 12:50:06,543 - twister - DEBUG - OUTPUT: PROJECT EXECUTION SUCCESSFUL
+2026-07-06 12:50:06,545 - twister - DEBUG - Expected suite names:['hist']
+2026-07-06 12:50:06,546 - twister - DEBUG - Detected suite names:['hist']
+2026-07-06 12:50:06,546 - twister - DEBUG - run status: native_sim/native/host/gnu/app.hist passed
+2026-07-06 12:50:06,549 - twister - DEBUG - Run coverage for 'native_sim/native/host/gnu/app.hist'
+2026-07-06 12:50:06,741 - twister - DEBUG - Select gcovr as the coverage tool...
+2026-07-06 12:50:06,741 - twister - DEBUG - Using gcov tool: gcov
+2026-07-06 12:50:06,811 - twister - DEBUG - Working on /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist/handler.log
+2026-07-06 12:50:06,811 - twister - DEBUG - Generating 0 gcda files
+2026-07-06 12:50:06,811 - twister - DEBUG - Gcov data captured: /home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/hist/app.hist/handler.log
+2026-07-06 12:50:06,828 - twister - INFO - 2 test scenarios (2 configurations) selected, 0 configurations filtered (0 by static filter, 0 at runtime).
+2026-07-06 12:50:06,836 - twister - INFO - [32m1 of 2[39m executed test configurations passed (50.00%), 0 built (not run), 0 failed, [31m1[39m errored, with no warnings in 24.44 seconds.
+2026-07-06 12:50:06,836 - twister - INFO - 4 of 7 executed test cases passed (57.14%), 3 blocked on 1 out of total 1616 platforms (0.06%).
+2026-07-06 12:50:06,837 - twister - INFO - [32m1[39m test configurations executed on platforms, [36m1[39m test configurations were only built.
+2026-07-06 12:50:07,027 - twister - DEBUG - Select gcovr as the coverage tool...
+2026-07-06 12:50:07,027 - twister - DEBUG - Using gcov tool: gcov
+2026-07-06 12:50:07,028 - twister - DEBUG - Running: gcovr -r /home/momesso/zephyrproject/zephyr --gcov-ignore-parse-errors=negative_hits.warn_once_per_file --gcov-executable gcov -e tests/* --gcov-object-directory /home/momesso/zephyrproject/campainha_silenciosa/twister-out --gcov-ignore-parse-errors=suspicious_hits.warn_once_per_file -e .*generated.* -e .*/tests/.* -e .*/samples/.* --exclude-branches-by-pattern (^\s*LOG_(?:HEXDUMP_)?(?:DBG|INF|WRN|ERR)\(.*)|(^\s*__ASSERT(?:_EVAL|_NO_MSG|_POST_ACTION)?\(.*) -v --merge-mode-functions=separate --json -o /home/momesso/zephyrproject/campainha_silenciosa/twister-out/coverage.json /home/momesso/zephyrproject/campainha_silenciosa/twister-out
+2026-07-06 12:50:12,297 - twister - DEBUG - Running: gcovr -r /home/momesso/zephyrproject/zephyr -v --merge-mode-functions=separate --gcov-executable gcov -f tests/ztest -e tests/ztest/test/* --json -o /home/momesso/zephyrproject/campainha_silenciosa/twister-out/ztest.json /home/momesso/zephyrproject/campainha_silenciosa/twister-out --gcov-object-directory /home/momesso/zephyrproject/campainha_silenciosa/twister-out
+2026-07-06 12:50:14,249 - twister - DEBUG - Coverage collected 2 reports from: /home/momesso/zephyrproject/campainha_silenciosa/twister-out
+2026-07-06 12:50:14,249 - twister - DEBUG - Running: gcovr -r /home/momesso/zephyrproject/zephyr -v --merge-mode-functions=separate --html /home/momesso/zephyrproject/campainha_silenciosa/twister-out/coverage/index.html --html-details --add-tracefile /home/momesso/zephyrproject/campainha_silenciosa/twister-out/coverage.json --add-tracefile /home/momesso/zephyrproject/campainha_silenciosa/twister-out/ztest.json --json-summary-pretty --json-summary /home/momesso/zephyrproject/campainha_silenciosa/twister-out/coverage_summary.json
+2026-07-06 12:50:18,831 - twister - INFO - HTML report generated: /home/momesso/zephyrproject/campainha_silenciosa/twister-out/coverage/index.html
+2026-07-06 12:50:18,831 - twister - DEBUG - All coverage data processed: True
+2026-07-06 12:50:18,831 - twister - INFO - Coverage data processed in 11.80 seconds
+2026-07-06 12:50:18,831 - twister - INFO - Saving reports...
+2026-07-06 12:50:18,831 - twister - INFO - Writing JSON report /home/momesso/zephyrproject/campainha_silenciosa/twister-out/twister.json
+2026-07-06 12:50:18,834 - twister - INFO - Writing xunit report /home/momesso/zephyrproject/campainha_silenciosa/twister-out/twister.xml...
+2026-07-06 12:50:18,836 - twister - INFO - Writing xunit report /home/momesso/zephyrproject/campainha_silenciosa/twister-out/twister_report.xml...
+2026-07-06 12:50:18,838 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-07-06 12:50:18,838 - twister - INFO - The following issues were found (showing the top 10 items):
+2026-07-06 12:50:18,838 - twister - INFO - 1) app.button on native_sim/native error (Build failure - error: __device_dts_ord_DT_N_ALIAS_sw1_P_gpios_IDX_0_PH_ORD undeclared here (not in a function))
+2026-07-06 12:50:18,838 - twister - INFO - 
+2026-07-06 12:50:18,839 - twister - INFO - To rerun the tests, call twister using the following commandline:
+2026-07-06 12:50:18,839 - twister - INFO - west twister -p <PLATFORM> -s <TEST ID>, for example:
+2026-07-06 12:50:18,839 - twister - INFO - 
+2026-07-06 12:50:18,839 - twister - INFO - west twister -p native_sim/native -s app.button
+2026-07-06 12:50:18,839 - twister - INFO - or with west:
+2026-07-06 12:50:18,839 - twister - INFO - west build -p -b native_sim/native tests/button -T app.button
+2026-07-06 12:50:18,839 - twister - INFO - -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+2026-07-06 12:50:18,839 - twister - INFO - Run completed

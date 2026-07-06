@@ -56,3 +56,4 @@
 /home/momesso/zephyrproject/zephyr/dts/bindings/crypto/espressif,esp32-sha.yaml
 /home/momesso/zephyrproject/zephyr/dts/bindings/crypto/espressif,esp32-aes.yaml
 /home/momesso/zephyrproject/zephyr/dts/bindings/input/gpio-keys.yaml
+/home/momesso/zephyrproject/zephyr/dts/bindings/input/zephyr,input-longpress.yaml

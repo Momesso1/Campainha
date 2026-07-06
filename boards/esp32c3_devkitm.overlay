@@ -1,3 +1,5 @@
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <zephyr/dt-bindings/led/led.h>
 
 &pinctrl {
@@ -36,11 +38,24 @@
 		led-strip = &led_strip;
 	};
 
-	buttons {
+	buttons: buttons {
 		compatible = "gpio-keys";
+		status = "okay";
+
 		button0_node: button_0 {
 			gpios = <&gpio0 9 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			zephyr,code = <INPUT_KEY_0>;
 			label = "Botao BOOT";
 		};
+	};
+
+	longpress: longpress {
+		compatible = "zephyr,input-longpress";
+		status = "okay";
+		input = <&buttons>;
+		input-codes = <INPUT_KEY_0>;
+		short-codes = <INPUT_KEY_A>;
+		long-codes  = <INPUT_KEY_B>;
+		long-delay-ms = <800>;
 	};
 };

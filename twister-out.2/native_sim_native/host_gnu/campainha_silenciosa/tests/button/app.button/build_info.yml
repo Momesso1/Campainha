@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: '/home/momesso/zephyrproject/campainha_silenciosa/tests/button'
+    source-dir: '/home/momesso/zephyrproject/campainha_silenciosa/tests/button'
+  board:
+    name: 'native_sim'
+    path:
+     - '/home/momesso/zephyrproject/zephyr/boards/native/native_sim'
+    qualifiers: 'native'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/momesso/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/momesso/zephyrproject/zephyr/boards/native/native_sim/native_sim.dts'
+    include-dirs:
+     - '/home/momesso/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/momesso/zephyrproject/modules/hal/atmel/include'
+     - '/home/momesso/zephyrproject/modules/hal/bouffalolab/include'
+     - '/home/momesso/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - '/home/momesso/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/momesso/zephyrproject/modules/hal/microchip/include'
+     - '/home/momesso/zephyrproject/modules/hal/microchip/dts'
+     - '/home/momesso/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/momesso/zephyrproject/modules/hal/nxp/dts'
+     - '/home/momesso/zephyrproject/modules/hal/stm32/dts'
+     - '/home/momesso/zephyrproject/modules/hal/ti/dts'
+     - '/home/momesso/zephyrproject/zephyr/include'
+     - '/home/momesso/zephyrproject/zephyr/include/zephyr'
+     - '/home/momesso/zephyrproject/zephyr/dts/common'
+     - '/home/momesso/zephyrproject/zephyr/dts/vendor'
+     - '/home/momesso/zephyrproject/zephyr/dts/rx'
+     - '/home/momesso/zephyrproject/zephyr/dts/x86'
+     - '/home/momesso/zephyrproject/zephyr/dts/xtensa'
+     - '/home/momesso/zephyrproject/zephyr/dts/sparc'
+     - '/home/momesso/zephyrproject/zephyr/dts/riscv'
+     - '/home/momesso/zephyrproject/zephyr/dts/posix'
+     - '/home/momesso/zephyrproject/zephyr/dts/arm64'
+     - '/home/momesso/zephyrproject/zephyr/dts/arm'
+     - '/home/momesso/zephyrproject/zephyr/dts/arc'
+     - '/home/momesso/zephyrproject/zephyr/dts'
+  kconfig:
+    extra-user-files:
+     - '/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button/twister/testsuite_extra.conf'
+    files:
+     - '/home/momesso/zephyrproject/zephyr/boards/native/native_sim/native_sim_defconfig'
+     - '/home/momesso/zephyrproject/campainha_silenciosa/tests/button/prj.conf'
+     - '/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button/twister/testsuite_extra.conf'
+     - '/home/momesso/zephyrproject/campainha_silenciosa/twister-out/native_sim_native/host_gnu/campainha_silenciosa/tests/button/app.button/zephyr/misc/generated/extra_kconfig_options.conf'
+    user-files:
+     - '/home/momesso/zephyrproject/campainha_silenciosa/tests/button/prj.conf'
+  toolchain:
+    name: 'host'
+    path: ''
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: '/home/momesso/zephyrproject/zephyr'
+version: '0.1.0'

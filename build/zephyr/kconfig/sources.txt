@@ -46,6 +46,7 @@
 /home/momesso/zephyrproject/modules/hal/intel/zephyr/Kconfig
 /home/momesso/zephyrproject/modules/hal/intel/zephyr/bsp_sedi/Kconfig
 /home/momesso/zephyrproject/modules/hal/intel/zephyr/subsys/logging/backends/Kconfig.i2c
+/home/momesso/zephyrproject/modules/hal/nxp/mcux/mcux-sdk-ng/middleware/mcuxsdk-middleware-multicore/rpmsg-lite/zephyr/Kconfig
 /home/momesso/zephyrproject/modules/hal/realtek/Kconfig
 /home/momesso/zephyrproject/modules/hal/realtek/ameba/Kconfig
 /home/momesso/zephyrproject/modules/hal/realtek/ameba/amebad/Kconfig
@@ -102,6 +103,7 @@
 /home/momesso/zephyrproject/zephyr/arch/arm/core/mpu/Kconfig
 /home/momesso/zephyrproject/zephyr/arch/arm64/Kconfig
 /home/momesso/zephyrproject/zephyr/arch/arm64/core/Kconfig
+/home/momesso/zephyrproject/zephyr/arch/arm64/core/Kconfig.pmu
 /home/momesso/zephyrproject/zephyr/arch/arm64/core/cortex_r/Kconfig
 /home/momesso/zephyrproject/zephyr/arch/arm64/core/xen/Kconfig
 /home/momesso/zephyrproject/zephyr/arch/common/Kconfig
@@ -673,6 +675,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.ace
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.ambiq
+/home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.ameba_tmr
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.andes_atcpit100
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.bee_rtc
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.bee_timer
@@ -710,6 +713,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mcux_stm
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mcux_sysctr
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mcux_tpm
+/home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mcux_tstmr
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mcux_wake_timer
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.mspm0
 /home/momesso/zephyrproject/zephyr/drivers/counter/Kconfig.native_sim
@@ -749,6 +753,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.bflb
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.cc23x0
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.esp32
+/home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.infineon_mxcryptolite
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.intel
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.it51xxx
 /home/momesso/zephyrproject/zephyr/drivers/crypto/Kconfig.it8xxx2
@@ -952,6 +957,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.esp32
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.gd32
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.gecko
+/home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.infineon_mxcryptolite
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.iproc
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.litex
 /home/momesso/zephyrproject/zephyr/drivers/entropy/Kconfig.max32
@@ -996,6 +1002,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.lan865x
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.lan9250
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.litex
+/home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.mchp
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.native_tap
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.numaker
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/Kconfig.nxp_enet
@@ -1034,6 +1041,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.intel_igc
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.lan865x
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.litex
+/home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.mchp
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.nxp_enet
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.nxp_enet_qos
 /home/momesso/zephyrproject/zephyr/drivers/ethernet/mdio/Kconfig.nxp_imx_netc
@@ -1278,6 +1286,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/haptics/cirrus/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/haptics/cirrus/Kconfig.cs40l26
 /home/momesso/zephyrproject/zephyr/drivers/haptics/cirrus/Kconfig.cs40l5x
+/home/momesso/zephyrproject/zephyr/drivers/haptics/cirrus/Kconfig.cs40lxx
 /home/momesso/zephyrproject/zephyr/drivers/haptics/ti/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/haptics/ti/Kconfig.drv2605
 /home/momesso/zephyrproject/zephyr/drivers/haptics/titanmec/Kconfig
@@ -1607,6 +1616,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.infineon_autanalog_ptcomp
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.infineon_hppass
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.infineon_hppass_csg
+/home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.infineon_mxcryptolite
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.it8801
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.lpflexcomm
 /home/momesso/zephyrproject/zephyr/drivers/mfd/Kconfig.m5pm1
@@ -1697,6 +1707,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.bflb
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.emu
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.mcux_ocotp
+/home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.nxp_otpc
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.nxp_rt7xx_ocotp
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.sifli
 /home/momesso/zephyrproject/zephyr/drivers/otp/Kconfig.stm32
@@ -1971,6 +1982,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/sdhc/Kconfig.sdhc_cdns
 /home/momesso/zephyrproject/zephyr/drivers/sdhc/Kconfig.spi
 /home/momesso/zephyrproject/zephyr/drivers/sdhc/Kconfig.stm32
+/home/momesso/zephyrproject/zephyr/drivers/sdhc/Kconfig.ti
 /home/momesso/zephyrproject/zephyr/drivers/sdhc/Kconfig.xlnx
 /home/momesso/zephyrproject/zephyr/drivers/sensor/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/Kconfig.sensor_clock
@@ -2047,6 +2059,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/sensor/explorir_m/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/f75303/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/fcx_mldx5/Kconfig
+/home/momesso/zephyrproject/zephyr/drivers/sensor/flow_meter/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/grow_r502a/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/hc_sr04/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/honeywell/Kconfig
@@ -2081,6 +2094,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max17262/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max30101/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max31790/Kconfig
+/home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max31826/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max31855/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max31865/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/maxim/max31875/Kconfig
@@ -2119,6 +2133,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nuvoton/nuvoton_adc_v2t_npcx/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nuvoton/nuvoton_tach_npcx/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nxp/Kconfig
+/home/momesso/zephyrproject/zephyr/drivers/sensor/nxp/eqdc_mcux/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nxp/fxas21002/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nxp/fxls8974/Kconfig
 /home/momesso/zephyrproject/zephyr/drivers/sensor/nxp/fxos8700/Kconfig
@@ -2476,6 +2491,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.cavs
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.cc13xx_cc26xx_rtc
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.cc23x0
+/home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.cmsdk_apb_timer
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.cortex_m_systick
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.esp32
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.gecko
@@ -2491,6 +2507,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_gpt
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_lptmr
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_os
+/home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_rtc_jdp
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_stm
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mcux_sysctr
 /home/momesso/zephyrproject/zephyr/drivers/timer/Kconfig.mips_cp0
@@ -2554,6 +2571,7 @@
 /home/momesso/zephyrproject/zephyr/drivers/usb/udc/Kconfig.stm32
 /home/momesso/zephyrproject/zephyr/drivers/usb/udc/Kconfig.virtual
 /home/momesso/zephyrproject/zephyr/drivers/usb/uhc/Kconfig
+/home/momesso/zephyrproject/zephyr/drivers/usb/uhc/Kconfig.dwc2
 /home/momesso/zephyrproject/zephyr/drivers/usb/uhc/Kconfig.max3421e
 /home/momesso/zephyrproject/zephyr/drivers/usb/uhc/Kconfig.mcux
 /home/momesso/zephyrproject/zephyr/drivers/usb/uhc/Kconfig.virtual
@@ -2738,6 +2756,7 @@
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.open-amp
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.picolibc
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.renesas
+/home/momesso/zephyrproject/zephyr/modules/Kconfig.rpmsg-lite
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.rust
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.simplelink
 /home/momesso/zephyrproject/zephyr/modules/Kconfig.stm32
@@ -2773,6 +2792,8 @@
 /home/momesso/zephyrproject/zephyr/modules/hal_nxp/Kconfig
 /home/momesso/zephyrproject/zephyr/modules/hal_nxp/imx/Kconfig.imx
 /home/momesso/zephyrproject/zephyr/modules/hal_nxp/mcux/Kconfig.mcux
+/home/momesso/zephyrproject/zephyr/modules/hal_nxp/mcux/mcux-sdk-ng/middleware/Kconfig
+/home/momesso/zephyrproject/zephyr/modules/hal_nxp/mcux/mcux-sdk-ng/middleware/Kconfig.multicore
 /home/momesso/zephyrproject/zephyr/modules/hal_nxp/s32/Kconfig.nxp_s32
 /home/momesso/zephyrproject/zephyr/modules/hal_realtek/Kconfig
 /home/momesso/zephyrproject/zephyr/modules/hal_realtek/ameba/Kconfig.ameba
@@ -2825,6 +2846,7 @@
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max32650
+/home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max32651
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max32655
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max32657
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max32660
@@ -2838,6 +2860,8 @@
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max78000
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.defconfig.max78002
 /home/momesso/zephyrproject/zephyr/soc/adi/max32/Kconfig.soc
+/home/momesso/zephyrproject/zephyr/soc/adi/max32/sbt/Kconfig
+/home/momesso/zephyrproject/zephyr/soc/adi/max32/sbt/Kconfig.defconfig
 /home/momesso/zephyrproject/zephyr/soc/aesc/Kconfig
 /home/momesso/zephyrproject/zephyr/soc/aesc/Kconfig.defconfig
 /home/momesso/zephyrproject/zephyr/soc/aesc/Kconfig.soc
@@ -3330,6 +3354,9 @@
 /home/momesso/zephyrproject/zephyr/soc/intel/lakemont/Kconfig
 /home/momesso/zephyrproject/zephyr/soc/intel/lakemont/Kconfig.defconfig
 /home/momesso/zephyrproject/zephyr/soc/intel/lakemont/Kconfig.soc
+/home/momesso/zephyrproject/zephyr/soc/intel/nova_lake/Kconfig
+/home/momesso/zephyrproject/zephyr/soc/intel/nova_lake/Kconfig.defconfig
+/home/momesso/zephyrproject/zephyr/soc/intel/nova_lake/Kconfig.soc
 /home/momesso/zephyrproject/zephyr/soc/intel/panther_lake/Kconfig
 /home/momesso/zephyrproject/zephyr/soc/intel/panther_lake/Kconfig.defconfig
 /home/momesso/zephyrproject/zephyr/soc/intel/panther_lake/Kconfig.soc
@@ -3650,6 +3677,7 @@
 /home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx95/Kconfig.soc
 /home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx952/Kconfig
 /home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx952/Kconfig.defconfig
+/home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx952/Kconfig.defconfig.mimx952.a55
 /home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx952/Kconfig.defconfig.mimx952.m7
 /home/momesso/zephyrproject/zephyr/soc/nxp/imx/imx9/imx952/Kconfig.soc
 /home/momesso/zephyrproject/zephyr/soc/nxp/imxrt/Kconfig
@@ -4568,6 +4596,7 @@
 /home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/backends/Kconfig.icmsg_me
 /home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/backends/Kconfig.intel_adsp
 /home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/backends/Kconfig.rpmsg
+/home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/backends/Kconfig.rpmsg-lite
 /home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/lib/Kconfig
 /home/momesso/zephyrproject/zephyr/subsys/ipc/ipc_service/lib/Kconfig.icmsg
 /home/momesso/zephyrproject/zephyr/subsys/ipc/open-amp/Kconfig

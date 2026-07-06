@@ -30,7 +30,7 @@ BOARD:STRING=esp32c3_devkitm
 BOARD_DIR:PATH=/home/momesso/zephyrproject/zephyr/boards/espressif/esp32c3_devkitm
 
 //Path to a program.
-BOSSAC:FILEPATH=/home/momesso/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/bossac
+BOSSAC:FILEPATH=BOSSAC-NOTFOUND
 
 //Kernel binary file
 BYPRODUCT_KERNEL_BIN_NAME:FILEPATH=/home/momesso/zephyrproject/campainha_silenciosa/build/zephyr/zephyr.bin
@@ -359,7 +359,7 @@ CONF_FILE:STRING=/home/momesso/zephyrproject/campainha_silenciosa/prj.conf
 DISABLE_PACKAGE_CONFIG_AND_INSTALL:BOOL=ON
 
 //Path to a program.
-DTC:FILEPATH=/home/momesso/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/dtc
+DTC:FILEPATH=/usr/bin/dtc
 
 //If desired, you can build the application using the DT configuration
 // settings specified in an alternate .overlay file using this
@@ -420,7 +420,7 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/home/momesso/zephyrproject/modules/crypto/mbedtls
 
 //Path to a program.
-OPENOCD:FILEPATH=/home/momesso/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+OPENOCD:FILEPATH=OPENOCD-NOTFOUND
 
 //Path to a program.
 PAHOLE:FILEPATH=PAHOLE-NOTFOUND
@@ -497,7 +497,7 @@ USE_STATIC_MBEDTLS_LIBRARY:BOOL=ON
 USE_STATIC_TF_PSA_CRYPTO_LIBRARY:BOOL=ON
 
 //No help, variable specified on the command line.
-WEST_PYTHON:UNINITIALIZED=/home/momesso/miniconda3/envs/zephyr/bin/python3.12
+WEST_PYTHON:UNINITIALIZED=/home/momesso/miniconda3/envs/zephyr/bin/python
 
 //No help, variable specified on the command line.
 WEST_TOPDIR:UNINITIALIZED=/home/momesso/zephyrproject
@@ -694,7 +694,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=191
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=193
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -742,11 +742,11 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Dtc
-FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/home/momesso/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/dtc][v1.7.0(1.4.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/usr/bin/dtc][v1.7.0(1.4.6)]
 //Details about finding GnuLd
 FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/home/momesso/zephyr-sdk-1.0.1/gnu/riscv64-zephyr-elf/riscv64-zephyr-elf/bin/ld.bfd][v2.43.1()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/momesso/miniconda3/envs/zephyr/bin/python3.12][cfound components: Interpreter ][v3.12.13()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/momesso/miniconda3/envs/zephyr/bin/python][cfound components: Interpreter ][v3.12.13()]
 //Zephyr hardware model version
 HWM:INTERNAL=v2
 //Zephyr hardware model
@@ -756,7 +756,7 @@ KERNEL_META_PATH:INTERNAL=/home/momesso/zephyrproject/campainha_silenciosa/build
 SOC_DIRECTORIES:INTERNAL=/home/momesso/zephyrproject/zephyr/soc/espressif
 SOC_LINKER_SCRIPT:INTERNAL=/home/momesso/zephyrproject/zephyr/soc/espressif/common/../esp32c3/default.ld
 //West
-WEST:INTERNAL=/home/momesso/miniconda3/envs/zephyr/bin/python3.12;-m;west
+WEST:INTERNAL=/home/momesso/miniconda3/envs/zephyr/bin/python;-m;west
 //Cached environment variable ZEPHYR_SDK_INSTALL_DIR
 ZEPHYR_SDK_INSTALL_DIR:INTERNAL=/home/momesso/zephyr-sdk-1.0.1
 ZEPHYR_SHARED_TARGETS:INTERNAL=menuconfig;guiconfig;hardenconfig;traceconfig
@@ -766,10 +766,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/momesso/miniconda3/envs/zephyr/bin/python3.12
+_Python3_EXECUTABLE:INTERNAL=/home/momesso/miniconda3/envs/zephyr/bin/python
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;13;64;;cpython-312-x86_64-linux-gnu.so;abi3;/home/momesso/miniconda3/envs/zephyr/lib/python3.12;/home/momesso/miniconda3/envs/zephyr/lib/python3.12;/home/momesso/miniconda3/envs/zephyr/lib/python3.12/site-packages;/home/momesso/miniconda3/envs/zephyr/lib/python3.12/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=fff2dcfde8ea05f42e2f7fbcf2d8bcfb
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=b775553d270fca74ed289cdf4360ee2e
 //Interpreter reason failure
 _Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure

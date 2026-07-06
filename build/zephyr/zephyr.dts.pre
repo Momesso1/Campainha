@@ -677,8 +677,10 @@
 };
 # 0 "<command-line>" 2
 # 1 "/home/momesso/zephyrproject/campainha_silenciosa/boards/esp32c3_devkitm.overlay" 1
+
+
 # 1 "/home/momesso/zephyrproject/zephyr/include/zephyr/dt-bindings/led/led.h" 1 3 4
-# 2 "/home/momesso/zephyrproject/campainha_silenciosa/boards/esp32c3_devkitm.overlay" 2
+# 4 "/home/momesso/zephyrproject/campainha_silenciosa/boards/esp32c3_devkitm.overlay" 2
 
 &pinctrl {
  spim2_ws2812: spim2_ws2812 {
@@ -716,12 +718,25 @@
   led-strip = &led_strip;
  };
 
- buttons {
+ buttons: buttons {
   compatible = "gpio-keys";
+  status = "okay";
+
   button0_node: button_0 {
    gpios = <&gpio0 9 ((1 << 4) | (1 << 0))>;
+   zephyr,code = <11>;
    label = "Botao BOOT";
   };
+ };
+
+ longpress: longpress {
+  compatible = "zephyr,input-longpress";
+  status = "okay";
+  input = <&buttons>;
+  input-codes = <11>;
+  short-codes = <30>;
+  long-codes = <48>;
+  long-delay-ms = <800>;
  };
 };
 # 0 "<command-line>" 2

@@ -13,8 +13,8 @@
 		sw0 = &user_button1;    /* in zephyr/boards/espressif/esp32c3_devkitm/esp32c3_devkitm.dts:28 */
 		i2c-0 = &i2c0;          /* in zephyr/boards/espressif/esp32c3_devkitm/esp32c3_devkitm.dts:29 */
 		watchdog0 = &wdt0;      /* in zephyr/boards/espressif/esp32c3_devkitm/esp32c3_devkitm.dts:30 */
-		sw1 = &button0_node;    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:35 */
-		led-strip = &led_strip; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:36 */
+		sw1 = &button0_node;    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:37 */
+		led-strip = &led_strip; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:38 */
 	};
 
 	/* node '/chosen' defined in zephyr/dts/riscv/espressif/esp32c3/esp32c3_common.dtsi:23 */
@@ -153,14 +153,14 @@
 			};
 		};
 
-		/* node '/pin-controller/spim2_ws2812' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:4 */
+		/* node '/pin-controller/spim2_ws2812' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:6 */
 		spim2_ws2812: spim2_ws2812 {
-			phandle = < 0xa >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:16 */
+			phandle = < 0xa >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:18 */
 
-			/* node '/pin-controller/spim2_ws2812/group1' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:5 */
+			/* node '/pin-controller/spim2_ws2812/group1' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:7 */
 			group1 {
-				pinmux = < 0x20ffc8 >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:6 */
-				output-low;            /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:7 */
+				pinmux = < 0x20ffc8 >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:8 */
+				output-low;            /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:9 */
 			};
 		};
 	};
@@ -504,22 +504,22 @@
 			interrupt-parent = < &intc >;       /* in zephyr/dts/riscv/espressif/esp32c3/esp32c3_common.dtsi:295 */
 			clocks = < &clock 0x6b >;           /* in zephyr/dts/riscv/espressif/esp32c3/esp32c3_common.dtsi:296 */
 			dma-host = < 0x0 >;                 /* in zephyr/dts/riscv/espressif/esp32c3/esp32c3_common.dtsi:297 */
-			#address-cells = < 0x1 >;           /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:13 */
-			#size-cells = < 0x0 >;              /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:14 */
-			status = "okay";                    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:15 */
-			pinctrl-0 = < &spim2_ws2812 >;      /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:16 */
-			pinctrl-names = "default";          /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:17 */
-			line-idle-low;                      /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:18 */
+			#address-cells = < 0x1 >;           /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:15 */
+			#size-cells = < 0x0 >;              /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:16 */
+			status = "okay";                    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:17 */
+			pinctrl-0 = < &spim2_ws2812 >;      /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:18 */
+			pinctrl-names = "default";          /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:19 */
+			line-idle-low;                      /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:20 */
 
-			/* node '/soc/spi@60024000/ws2812@0' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:20 */
+			/* node '/soc/spi@60024000/ws2812@0' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:22 */
 			led_strip: ws2812@0 {
-				compatible = "worldsemi,ws2812-spi"; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:21 */
-				reg = < 0x0 >;                       /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:22 */
-				spi-max-frequency = < 0x61a800 >;    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:23 */
-				chain-length = < 0x1 >;              /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:24 */
-				spi-one-frame = < 0xf0 >;            /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:25 */
-				spi-zero-frame = < 0xc0 >;           /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:26 */
-				color-mapping = < 0x2 0x1 0x3 >;     /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:27 */
+				compatible = "worldsemi,ws2812-spi"; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:23 */
+				reg = < 0x0 >;                       /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:24 */
+				spi-max-frequency = < 0x61a800 >;    /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:25 */
+				chain-length = < 0x1 >;              /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:26 */
+				spi-one-frame = < 0xf0 >;            /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:27 */
+				spi-zero-frame = < 0xc0 >;           /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:28 */
+				color-mapping = < 0x2 0x1 0x3 >;     /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:29 */
 			};
 		};
 
@@ -607,14 +607,28 @@
 		};
 	};
 
-	/* node '/buttons' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:39 */
-	buttons {
-		compatible = "gpio-keys"; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:40 */
+	/* node '/buttons' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:41 */
+	buttons: buttons {
+		compatible = "gpio-keys"; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:42 */
+		status = "okay";          /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:43 */
+		phandle = < 0xc >;        /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:55 */
 
-		/* node '/buttons/button_0' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:41 */
+		/* node '/buttons/button_0' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:45 */
 		button0_node: button_0 {
-			gpios = < &gpio0 0x9 0x11 >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:42 */
-			label = "Botao BOOT";        /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:43 */
+			gpios = < &gpio0 0x9 0x11 >; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:46 */
+			zephyr,code = < 0xb >;       /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:47 */
+			label = "Botao BOOT";        /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:48 */
 		};
+	};
+
+	/* node '/longpress' defined in campainha_silenciosa/boards/esp32c3_devkitm.overlay:52 */
+	longpress: longpress {
+		compatible = "zephyr,input-longpress"; /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:53 */
+		status = "okay";                       /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:54 */
+		input = < &buttons >;                  /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:55 */
+		input-codes = < 0xb >;                 /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:56 */
+		short-codes = < 0x1e >;                /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:57 */
+		long-codes = < 0x30 >;                 /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:58 */
+		long-delay-ms = < 0x320 >;             /* in campainha_silenciosa/boards/esp32c3_devkitm.overlay:59 */
 	};
 };

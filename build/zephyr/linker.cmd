@@ -821,6 +821,7 @@ ztest : ALIGN_WITH_INPUT
   KEEP(*(".dbg_thread_info"));
  } > drom0_0_seg AT > FLASH
  settings_handler_static_area : ALIGN_WITH_INPUT { _settings_handler_static_list_start = .; KEEP(*(SORT_BY_NAME(._settings_handler_static.static.*))); _settings_handler_static_list_end = .;; } > drom0_0_seg AT > FLASH
+ input_callback_area : ALIGN_WITH_INPUT { _input_callback_list_start = .; KEEP(*(SORT_BY_NAME(._input_callback.static.*))); _input_callback_list_end = .;; } > drom0_0_seg AT > FLASH
  zbus_channel_area : ALIGN_WITH_INPUT { _zbus_channel_list_start = .; KEEP(*(SORT_BY_NAME(._zbus_channel.static.*))); _zbus_channel_list_end = .;; } > drom0_0_seg AT > FLASH
  zbus_observer_area : ALIGN_WITH_INPUT { _zbus_observer_list_start = .; KEEP(*(SORT_BY_NAME(._zbus_observer.static.*))); _zbus_observer_list_end = .;; } > drom0_0_seg AT > FLASH
  zbus_channel_observation_area : ALIGN_WITH_INPUT { _zbus_channel_observation_list_start = .; KEEP(*(SORT_BY_NAME(._zbus_channel_observation.static.*))); _zbus_channel_observation_list_end = .;; } > drom0_0_seg AT > FLASH

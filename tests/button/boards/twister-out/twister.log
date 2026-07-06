@@ -1,0 +1,9 @@
+2026-07-06 12:57:00,256 - twister - INFO - Using Ninja..
+2026-07-06 12:57:00,399 - twister - INFO - Zephyr version: v4.4.0-7458-g2c47d4530087
+2026-07-06 12:57:00,403 - twister - DEBUG - Running cmake script /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:57:00,403 - twister - DEBUG - Calling cmake: /usr/bin/cmake -DFORMAT=json -P /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:57:00,650 - twister - DEBUG - Finished running /home/momesso/zephyrproject/zephyr/cmake/verify-toolchain.cmake
+2026-07-06 12:57:00,650 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-07-06 12:57:01,568 - twister - DEBUG - Reading testsuite configuration files under /home/momesso/zephyrproject/campainha_silenciosa/tests/button/boards/tests...
+2026-07-06 12:57:01,568 - twister - ERROR - No testsuites found at the specified location...
+2026-07-06 12:57:01,568 - twister - ERROR - No testsuites found at the specified location...
